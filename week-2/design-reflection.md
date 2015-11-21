@@ -1,4 +1,4 @@
-![Site Map](./dbc-sitemap.png "Site Map 1")
+![Site Map](./imgs/dbc-sitemap.png "Site Map 1")
 
 * What are the 6 Phases of Web Design?
   1. Information Gathering - This is the phase where you do research on what your site should do, ask the client questions about what they think the
