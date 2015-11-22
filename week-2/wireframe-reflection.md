@@ -1,5 +1,5 @@
-![Wireframe](./imgs/wireframe-index.png "Wireframe of index")
-![Wireframe of Blog](./imgs/wireframe-blog-index.png "Wireframe of blog section")
+![Wireframe](imgs/wireframe-index.png "Wireframe of index")
+![Wireframe of Blog](imgs/wireframe-blog-index.png "Wireframe of blog section")
 
 1. What is a wireframe?
   + A wireframe is basically a layout of your website. Usually it is something the designer can layover the design and function to create the website with relative ease.
