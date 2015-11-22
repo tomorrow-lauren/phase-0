@@ -1,9 +1,9 @@
 ![Site Map](./imgs/dbc-sitemap.png "Site Map 1")
 
 * What are the 6 Phases of Web Design?
-  1. Information Gathering - This is the phase where you do research on what your site should do, ask the client questions about what they think the
-  2. Planning
-  3. Design
+  1. Information Gathering - This is the phase where you do research on what your site should do,  the purpose. You also should ask the client questions about what they need the website to do.
+  2. Planning - this is where the sitemapping, wireframing, etc comes in. You layout what needs to be done, how it's going to work on the website, how many clicks deep things are going to be placed.
+  3. Design - norm
   4. Development
   5. Testing and Delivery
   6. Maintenance
