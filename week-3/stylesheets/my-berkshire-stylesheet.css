@@ -54,4 +54,18 @@ border-top: 1px solid gray;
 .legal {
 border-top: 1px solid gray;
 }
-
+/* What is important to know when linking an external file (like a stylesheet) to an HTML file?
+I think it's really important to makesure it's going to the correct directory, that there isn't anything broken.
+Also, verify that it's not going to go down.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+I used a few position tricks and semantic elements to seperate things. It was work but I think it turned out cool.
+What CSS did you use to modify the element style (like size, color, etc.)?
+We used all of those, that's what's great about CSS, that it allows for you to manipulate things by section. 
+We set the text color and backgrounds, we used many semantic elements to break things down. 
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Yes, we used classes to seperate individual sections. This makes the code a little cleaner, and the css more obvious. 
+This also allows us to see what was or wasn't working.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I felt ours was amybe more CSS best practices but I can see how that structure would be more beneficial to a site like this where it's just links in a table to be swapped in and out. 
+Theirs was less dynamic, ours was less ridgidly structured.
+*/
