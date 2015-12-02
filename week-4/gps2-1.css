@@ -1,0 +1,39 @@
+eader {
+    width: 100%;
+    text-align: center;
+    background-color: aliceBlue;
+    padding: 2em;
+    border-bottom: 3px solid gray;
+}
+h2 {
+    font-family: Arial;
+    color: #151B54;
+}
+section {
+    display: inline-block;
+}
+.column-1 {
+    float: right;
+    width: 40%;
+    margin: 5%;
+}
+
+.column-2 {
+    float: left ;
+    width: 40%;
+    margin: 5%;
+}
+
+footer {
+    width: 100%;
+    background-color: aliceBlue;
+    text-align: center;
+    clear: both;
+    padding: 2em;
+    border-top: 3px solid gray;
+}
+
+a:hover {
+    text-decoration: none;
+    color: green;
+}
