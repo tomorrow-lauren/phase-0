@@ -1,5 +1,5 @@
 old_string = "Ruby is cool"
-new_string = 'Ruby is cool'.reverse.upcase
+new_string = old_string.reverse.upcase
 
 
 describe "old_string" do
