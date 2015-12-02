@@ -1,6 +1,6 @@
 # Factorial
 
-# I worked on this challenge [with: Roche].
+# I worked on this challenge [with: Roche, I drove].
 # Your Solution Below
 def factorial(number)
   counter = number.to_i - 1
