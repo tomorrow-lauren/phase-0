@@ -13,10 +13,17 @@
 
 # 0. Pseudocode
 
-# What is the input? It takes an array
-# What is the output? a new array
-# What are the steps needed to solve the problem?
+# What is the input?
+# an array, a minimum size of an array and a value to insert if padding is required.
 
+# What is the output? (i.e. What should the code return?)
+# an array with padding added if the array does not meet the minimum size requirement.
+
+# What are the steps needed to solve the problem?
+# - (if) if the length of the array is less than the minimum length,
+# - (then) return the array with padding added = to the amount of characters short
+#   of the minimum length.
+# #
 
 # 1. Initial Solution
 =begin
