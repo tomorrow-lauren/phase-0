@@ -5,7 +5,7 @@
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
 
-# Person 1's solution - Liam
+# Person 1's solution - Liam Mackey
 def my_array_finding_method(source, thing_to_find)
   ans = source.select {|x| x.to_s.include?(thing_to_find)}
   return ans
@@ -33,22 +33,47 @@ end
 # it should look like this array.select {|x| x > 5} this block will return every element in the array that is greater than five
 # I found select to be a super handy method
 # Release 3: Reflect!
+
 # What did you learn about researching and explaining your research to others?
 #I learned that you have to really read the ruby docs carefully. Youc ould find a method that works, in my case each, but if you go further you can refactor your code even more.
 # Explaining my research really helped solidify the concepts I researched in my head. I really feel that I now have the good research skills that will help me succeed at DBC and as long as I continue to pass that info on to others I will continue to solidify it in my head
 #One handy trick for using ruby docs is to guess the name of the method ad start there because many times you can guess what it is called and save yourself some time
-# Person 2
-def my_array_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+
+# Person 2 - Brigitte Kozena
+def my_array_modification_method!( i_want_pets, number)
+  position = 1
+  i_want_pets.each do |x|
+    if x.is_a?(Integer)
+      y = x + number
+      i_want_pets[position] = y
+    end
+    position += 1
+  end
+  print i_want_pets
 end
-def my_hash_modification_method!(source, thing_to_modify)
-  source.dup # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+
+def my_hash_modification_method!(my_family_pets_ages, number)
+
+	my_family_pets_ages.each do |k , v|
+		my_family_pets_ages[k] = v + number
+	end 
+	print my_family_pets_ages
 end
-# Identify and describe the Ruby method(s) you implemented.
-#
-#
-#
-# Person 3 - Joanna
+
+
+=begin 
+Identify and describe the Ruby method you implemented
+- I have created two methods. The first changes the number of pets in an array. 
+- The second changes the age of pets in a hash
+Teach your accountability group how to use the methods
+ my_array_modification_method!( i_want_pets, number)
+ i_want_pets is the array you want to insert
+ number is the number you want to increase the current numbers in the array by
+ my_hash_modification_method!(my_family_pets_ages, number)
+ my_family_pets_ages is the hash you will insert
+ number is the number that all ages will increase by 
+=end
+# Person 3 - Joanna Lonn
 
 # Alphabetize array - nondestructive
 
@@ -76,7 +101,7 @@ my_hash_sorting_method(my_family_pets_ages)
 #
 # For the Arrange Data in a Hash challenge I used the sort_by enumerator to sort the hash by age.
 
-# Person 4 - Peter lowe
+# Person 4 - Peter Lowe
 def my_array_deletion_method!(source, thing_to_delete)
   source.delete_if {|x| x.to_s.include?(thing_to_delete)}
 end
@@ -92,7 +117,7 @@ end
 # In the array method I also used .include? which evaluates weather an object includes a specifed substring or value.
 # I also used .to_s before calling .include to convert any integer elements to strings (.include cannot be called on fixnums)
 
-# Person 5
+# Person 5 Me, Lauren Reid
 def my_array_splitting_method(source)
   new_array =[]
   new_array.push(source.select {|item| item.is_a? Integer})
