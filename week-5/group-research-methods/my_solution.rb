@@ -56,14 +56,14 @@ def my_hash_modification_method!(my_family_pets_ages, number)
 
 	my_family_pets_ages.each do |k , v|
 		my_family_pets_ages[k] = v + number
-	end 
+	end
 	print my_family_pets_ages
 end
 
 
-=begin 
+=begin
 Identify and describe the Ruby method you implemented
-- I have created two methods. The first changes the number of pets in an array. 
+- I have created two methods. The first changes the number of pets in an array.
 - The second changes the age of pets in a hash
 Teach your accountability group how to use the methods
  my_array_modification_method!( i_want_pets, number)
@@ -71,7 +71,7 @@ Teach your accountability group how to use the methods
  number is the number you want to increase the current numbers in the array by
  my_hash_modification_method!(my_family_pets_ages, number)
  my_family_pets_ages is the hash you will insert
- number is the number that all ages will increase by 
+ number is the number that all ages will increase by
 =end
 # Person 3 - Joanna Lonn
 
