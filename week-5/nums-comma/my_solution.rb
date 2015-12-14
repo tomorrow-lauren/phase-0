@@ -38,12 +38,7 @@ end
 =end
 # 2. Refactored Solution
 def separate_comma(num_to_comma)
-  counter = 1
-  if num_to_comma.to_s.length < 4
-    p num_to_comma.to_s
-  elsif num_to_comma.to_s.length < 7
-
-    end
+  str= num_to_comma.to_s
 
 end
 
