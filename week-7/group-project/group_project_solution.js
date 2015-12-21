@@ -1,0 +1,4 @@
+As a user, I want to be able to calculate certain math stuff, from a set/group of numbers [regardless of if there are an even amount or odd amount of numbers], so that I do not have to do this math on my own, and can just provide the list of numbers. I'd like to be able to just put it in a set so that I don't have to keep entering them.
+First, I want to be able to have a function sum, so that I can know the total of these numbers. Like if this was my profits I'd know the sum of all profits.
+Second I want this calculator to have a mean function, so that I know the mean or average number, perhaps to know what my average sales were.
+Third, I want to be able to use the median function on the set, so that I know what values are high and what values are low, so that I know the average sort of area, and what entries would be high or low.
