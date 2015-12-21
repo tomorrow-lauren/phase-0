@@ -59,7 +59,7 @@ greet.hello
 # What is a writer method?
 # it allows the same thing to be changed - for instance, Lauren.age could be 27 but if you write Lauren.age = 28, then Lauren.age would return 28 [Hey, not until March!].
 # What do the attr methods do for you?
-# They allow the access of those variables easily from outside the method.
+# They allow the access of those variables easily from outside the method. Reader allows them to be viewed/used as a value. Writer means they can be changed. Accessor does both.
 # Should you always use an accessor to cover your bases? Why or why not?
 # No, because you sometimes don't want, pardon my language, idiot users to write over your info. You may want to SHOW them how many tickets have been entered but they don't need to be able to edit that. Or they may want to change another variable but it doesn't need to be called.
 # What is confusing to you about these methods?
