@@ -1,7 +1,7 @@
 // Separate Numbers with Commas in JavaScript **Pairing Challenge**
 
 
-// I worked on this challenge with: Lauren Reid
+// I worked on this challenge with: Meagan M
 
 // Pseudocode
 // Input: the function would take a number
