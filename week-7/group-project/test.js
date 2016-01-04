@@ -1,4 +1,24 @@
+function sum(ARRAY){
+      var TOTAL = 0;
+      for (var i = 0; i < ARRAY.length; i++) {
+        TOTAL += ARRAY[i];
+      }
+      return TOTAL;
+    }
 
+   function mean(ARRAY){
+      return (sum(ARRAY) / ARRAY.length);
+    }
+
+
+    function median (ARRAY){
+      var PLACE = ARRAY.length / 2
+        PLACE = Math.floor(PLACE);
+      if (ARRAY.length % 2 === 0)
+        return ((ARRAY[PLACE] + ARRAY[PLACE -1])/2)
+      else
+        return ARRAY[PLACE]
+    }
 // Add the finished solution here when you receive it.
 // __________________________________________
 // Tests:  Do not alter code below this line.
