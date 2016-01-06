@@ -14,7 +14,7 @@
 ## Reflection Section
 * What are databases for?
 
-⋅⋅⋅ They're for storing and organizing information. They also provide easily readible and accessible tables for
+⋅⋅* They're for storing and organizing information. They also provide easily readible and accessible tables for
 * What is a one-to-many relationship?
 ⋅⋅* A one-to-many relationship is polygamy in Utah. Just kidding. Sort of. One-to-many is where one object, or value, is linked to multiple objects. Like the ONE region has MANY states. Or one gun has many bullets, but the bullets only go in the one gun. Hopefully.
 * What is a primary key? What is a foreign key? How can you determine which is which?
