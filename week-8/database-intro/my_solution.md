@@ -12,11 +12,11 @@
 * [Here's the schema design](../operation_chers_closet.png)
 
 ## Reflection Section
-* What are databases for?
+* __What are databases for?__
   They're for storing and organizing information. They also provide easily readible and accessible tables for
-* What is a one-to-many relationship?
+* __What is a one-to-many relationship?__
   A one-to-many relationship is polygamy in Utah. Just kidding. Sort of. One-to-many is where one object, or value, is linked to multiple objects. Like the ONE region has MANY states. Or one gun has many bullets, but the bullets only go in the one gun. Hopefully.
-* What is a primary key? What is a foreign key? How can you determine which is which?
-  A primary key is unique to each record. It's the region_is in the primary table. The foreign key is the id number in the smaller/child table containing the regions.
-* How can you select information out of a SQL database? What are some general guidelines for that?
-  DO NOT FORGET YOUR SEMICOLONS. Also, It's a bit intuitive. Think of it like you're just picking things out. So you have to SELECT what you want, or maybe two things FROM the table you want it from maybe ORDER BY one of those elements?;(SEMICOLONS). Using the SELECT stuff is really just about figuring out how the database wants to phrase it.
+* __What is a primary key? What is a foreign key? How can you determine which is which?__
+* A primary key is unique to each record. It's the region_is in the primary table. The foreign key is the id number in the smaller/child table containing the regions.
+* __How can you select information out of a SQL database? What are some general guidelines for that?__
+  * DO NOT FORGET YOUR SEMICOLONS. Also, It's a bit intuitive. Think of it like you're just picking things out. So you have to SELECT what you want, or maybe two things FROM the table you want it from maybe ORDER BY one of those elements?;(SEMICOLONS). Using the SELECT stuff is really just about figuring out how the database wants to phrase it.
