@@ -1,6 +1,6 @@
 ## More Schemas
-[Here's the one-to-one design](/imgs/one-to-one.png)
-[Here's the many-to-many design](/imgs/one-to-groceries.png)
+[Here's the one-to-one design](imgs/one-to-one.png)
+[Here's the many-to-many design](imgs/one-to-groceries.png)
 
 ## Reflection Section
 * What is a one-to-one database?
